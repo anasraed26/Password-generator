@@ -77,7 +77,7 @@ input {
 }
 #generate:hover {
     background: #0C7A6F;
-    transform: skewY(-5px);
+    transform: translateY(-10px);
     box-shadow: 0px 0px 5px black;
 
 }
