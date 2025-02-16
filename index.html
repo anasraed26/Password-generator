@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="submain">
+                <h1>Generate a <br><span>random password</span></h1>
+                <p id="subtitle">Never use an insecure password again.</p>
+                <p id="numc">Enter number of characters</p>
+                <input id="passlength" type="number">
+                <div id="titles">
+                    <span>letters</span>
+                    <span>numbers</span>
+                    <span>symbols</span>
+                </div>
+                <div id="switches">
+                    <button id="lswitch" onclick="sletter()">⚪</button>
+                    <button id="nswitch" onclick="snumber()">⚪</button>
+                    <button id="sswitch" onclick="ssymbol()">⚪</button>
+                </div>
+                <button id="generate" onclick="generatepass()">Generate passwords</button>
+            </div>
+            <div id="outputs">
+                <p id="output1"></p>
+                <p id="output2"></p>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
